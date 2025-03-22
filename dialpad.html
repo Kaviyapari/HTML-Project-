@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialpad</title>
+    <style>
+        body{
+            background-color: lavender;
+           
+        }
+        #dialog{
+            background-color: whitesmoke;
+            width:300px;
+            height:500px;
+            border-radius: 20px;
+            box-shadow: 10px 10px 8px #000000;
+            margin-left: 500px;
+            margin-top:50px;}
+
+h3,p{
+text-align: center;
+}
+.number{
+    display: flex;
+    justify-content:space-evenly;
+    margin:30px;
+}
+.btn{
+    background-color: rgb(194, 194, 194);
+    width: 50px;
+    height:50px;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color:rgb(255, 0, 212);
+    width: 50px;
+    height:50px;
+    border-radius: 50px;
+
+}
+div p{
+    margin-top: 10px;
+}
+button{
+    height: 70px;
+    width: 70px;
+    font-size: 25px;
+    background-color: green;
+    border-radius: 50px;
+    border: none;
+    margin-left: 110px;
+}
+    </style>
+</head>
+<body>
+    <div id="dialog">
+        <div id="dial">
+            <h3 id="h3">9345442509</h3>
+            <p>KAVI</p>
+        </div>
+        <div class="number">
+            <div class="btn"><p>1</p></div>
+            <div class="btn"><p>2 <br> abc</p></div>
+            <div class="btn"><p>3 <br> def</p></div>
+        </div>
+        <div class="number">
+            <div class="btn"><p>4 <br> ghi</p></div>
+            <div class="btn"><p>5 <br> jkl</p></div>
+            <div class="btn"><p>6 <br> mno</p></div>
+        </div>
+        <div class="number">
+            <div class="btn"><p>7 <br> pqrs</p></div>
+            <div class="btn"><p>8 <br> tuv</p></div>
+            <div class="btn"><p>9 <br> wxyz</p></div>
+        </div>
+        <div class="number">
+            <div class="btn"><p>*</p></div>
+            <div class="btn"><p>0</p></div>
+            <div class="btn"><p>#</p></div>
+        </div>
+            <button></button>
+    </div>
+</body>
+</html>
